@@ -20,6 +20,12 @@ function destructivelyAddElementToEndOfArray(array, element) {
   return array
 }
 
+//return to this function
 function accessElementInArray(array, index) {
   console.log(array[index])
+}
+
+function destructivelyRemoveElementFromBeginningOfArray(array) {
+  array.shift()
+  return array
 }
